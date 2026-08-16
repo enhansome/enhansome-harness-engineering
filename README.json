@@ -14,7 +14,7 @@
             "last_commit": "2026-08-14T16:44:52Z",
             "owner": "github",
             "repo": "spec-kit",
-            "stars": 128865
+            "stars": 129414
           }
         },
         {
@@ -28,7 +28,7 @@
             "last_commit": "2026-03-12T14:26:14Z",
             "owner": "agentsmd",
             "repo": "agents.md",
-            "stars": 23650
+            "stars": 23660
           }
         },
         {
@@ -96,7 +96,7 @@
             "last_commit": "2026-03-03T15:32:37Z",
             "owner": "HKUDS",
             "repo": "ClawWork",
-            "stars": 8347
+            "stars": 8349
           }
         },
         {
@@ -110,7 +110,7 @@
             "last_commit": "2026-02-08T17:01:05Z",
             "owner": "THUDM",
             "repo": "AgentBench",
-            "stars": 3669
+            "stars": 3670
           }
         },
         {
@@ -124,7 +124,7 @@
             "last_commit": "2026-08-14T20:59:57Z",
             "owner": "sierra-research",
             "repo": "tau2-bench",
-            "stars": 1797
+            "stars": 1799
           }
         },
         {
@@ -152,7 +152,7 @@
             "last_commit": "2026-03-18T17:36:06Z",
             "owner": "sierra-research",
             "repo": "tau-bench",
-            "stars": 1382
+            "stars": 1384
           }
         },
         {
@@ -177,7 +177,7 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-13T15:12:33Z",
+            "last_commit": "2026-08-16T12:00:00Z",
             "owner": "InternLM",
             "repo": "WildClawBench",
             "stars": 511
@@ -208,7 +208,7 @@
             "last_commit": "2024-05-20T13:44:42Z",
             "owner": "hkust-nlp",
             "repo": "AgentBoard",
-            "stars": 436
+            "stars": 437
           }
         },
         {
@@ -393,10 +393,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T08:49:06Z",
+            "last_commit": "2026-08-15T13:29:30Z",
             "owner": "langchain-ai",
             "repo": "deepagents",
-            "stars": 27786
+            "stars": 27811
           }
         },
         {
@@ -410,7 +410,7 @@
             "last_commit": "2026-08-10T22:08:15Z",
             "owner": "SWE-agent",
             "repo": "SWE-agent",
-            "stars": 20058
+            "stars": 20063
           }
         },
         {
@@ -421,10 +421,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T05:28:31Z",
+            "last_commit": "2026-08-15T17:31:30Z",
             "owner": "browser-use",
             "repo": "browser-harness",
-            "stars": 16703
+            "stars": 16717
           }
         },
         {
@@ -435,10 +435,10 @@
           "repo_info": {
             "archived": false,
             "language": "Python",
-            "last_commit": "2026-08-15T01:01:05Z",
+            "last_commit": "2026-08-16T06:56:41Z",
             "owner": "harbor-framework",
             "repo": "harbor",
-            "stars": 4260
+            "stars": 4278
           }
         },
         {
@@ -452,7 +452,7 @@
             "last_commit": "2026-04-29T18:37:00Z",
             "owner": "inngest",
             "repo": "agent-kit",
-            "stars": 919
+            "stars": 920
           }
         },
         {
@@ -480,7 +480,7 @@
             "last_commit": "2026-08-10T22:08:13Z",
             "owner": "SWE-agent",
             "repo": "SWE-ReX",
-            "stars": 570
+            "stars": 571
           }
         },
         {
@@ -494,7 +494,7 @@
             "last_commit": "2026-08-11T10:36:33Z",
             "owner": "olo-dot-io",
             "repo": "Uni-CLI",
-            "stars": 255
+            "stars": 262
           }
         },
         {
@@ -549,7 +549,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-15T13:09:34.602Z",
+    "last_updated": "2026-08-16T13:10:34.693Z",
     "original_repository": "walkinglabs/awesome-harness-engineering",
     "original_repository_sha": "f84f1701974cf1ad67dd774b025b33e613275cee",
     "enhanced_repository": "enhansome/enhansome-harness-engineering",
