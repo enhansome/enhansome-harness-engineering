@@ -15,7 +15,7 @@
             "last_commit": "2026-08-19T09:42:52Z",
             "owner": "walkinglabs",
             "repo": "learn-harness-engineering",
-            "stars": 12340
+            "stars": 12363
           }
         },
         {
@@ -30,7 +30,7 @@
             "last_commit": "2026-08-19T07:41:28Z",
             "owner": "hardness1020",
             "repo": "awesome-agent-architecture",
-            "stars": 602
+            "stars": 603
           }
         },
         {
@@ -102,10 +102,10 @@
                 "archived": false,
                 "id": 1128123594,
                 "language": "Python",
-                "last_commit": "2026-08-19T12:08:55Z",
+                "last_commit": "2026-08-19T13:15:15Z",
                 "owner": "volcengine",
                 "repo": "OpenViking",
-                "stars": 29826
+                "stars": 29846
               }
             },
             {
@@ -160,7 +160,7 @@
                 "archived": false,
                 "id": 1158144354,
                 "language": "Shell",
-                "last_commit": "2026-08-10T12:27:30Z",
+                "last_commit": "2026-08-19T13:17:49Z",
                 "owner": "aporthq",
                 "repo": "aport-agent-guardrails",
                 "stars": 25
@@ -255,10 +255,10 @@
                 "archived": false,
                 "id": 1042367133,
                 "language": "Python",
-                "last_commit": "2026-08-19T12:25:53Z",
+                "last_commit": "2026-08-19T13:13:34Z",
                 "owner": "github",
                 "repo": "spec-kit",
-                "stars": 130254
+                "stars": 130266
               }
             },
             {
@@ -812,7 +812,7 @@
                 "last_commit": "2026-08-19T06:39:05Z",
                 "owner": "harbor-framework",
                 "repo": "harbor",
-                "stars": 4404
+                "stars": 4408
               }
             },
             {
@@ -861,7 +861,7 @@
                 "archived": false,
                 "id": 1027384981,
                 "language": "Python",
-                "last_commit": "2026-08-19T08:10:18Z",
+                "last_commit": "2026-08-19T13:24:47Z",
                 "owner": "langchain-ai",
                 "repo": "deepagents",
                 "stars": 27931
@@ -936,7 +936,7 @@
                 "archived": false,
                 "id": 1260291990,
                 "language": "TypeScript",
-                "last_commit": "2026-08-19T12:06:38Z",
+                "last_commit": "2026-08-19T13:14:35Z",
                 "owner": "griffinwork40",
                 "repo": "agent-afk",
                 "stars": 52
@@ -966,7 +966,7 @@
                 "archived": false,
                 "id": 1250062394,
                 "language": "Shell",
-                "last_commit": "2026-08-19T05:57:54Z",
+                "last_commit": "2026-08-19T12:53:22Z",
                 "owner": "chrono-meta",
                 "repo": "forge-harness",
                 "stars": 7
@@ -1021,7 +1021,7 @@
                 "last_commit": "2026-08-16T11:48:47Z",
                 "owner": "Orkas-AI",
                 "repo": "Orkas",
-                "stars": 1341
+                "stars": 1344
               }
             },
             {
@@ -1088,7 +1088,7 @@
                 "last_commit": "2026-08-19T11:28:53Z",
                 "owner": "browser-use",
                 "repo": "browser-harness",
-                "stars": 16796
+                "stars": 16798
               }
             },
             {
@@ -1155,7 +1155,7 @@
                 "last_commit": "2026-08-09T17:49:22Z",
                 "owner": "Ducksss",
                 "repo": "codex-profiles",
-                "stars": 95
+                "stars": 96
               }
             },
             {
@@ -1167,7 +1167,7 @@
                 "archived": false,
                 "id": 1143137828,
                 "language": "TypeScript",
-                "last_commit": "2026-08-19T12:30:34Z",
+                "last_commit": "2026-08-19T13:03:01Z",
                 "owner": "basilisk-labs",
                 "repo": "agentplane",
                 "stars": 73
@@ -1243,7 +1243,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-19T12:33:20.999Z",
+    "last_updated": "2026-08-19T13:26:19.670Z",
     "original_repository": "walkinglabs/awesome-harness-engineering",
     "original_repository_id": 1195208341,
     "original_repository_sha": "cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad",
