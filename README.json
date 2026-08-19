@@ -1,83 +1,358 @@
 {
   "items": [
     {
-      "description": "",
+      "description": null,
       "items": [
         {
           "node_type": "item",
-          "title": "GitHub Spec Kit",
-          "description": "GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.",
+          "title": "walkinglabs/learn-harness-engineering",
+          "description": "A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T13:16:53Z",
-            "owner": "github",
-            "repo": "spec-kit",
-            "stars": 130018
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AGENTS.md",
-          "description": "A lightweight open format for repo-local instructions that tell agents how to work inside a codebase.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
+            "id": 1195243030,
             "language": "TypeScript",
-            "last_commit": "2026-03-12T14:26:14Z",
-            "owner": "agentsmd",
-            "repo": "agents.md",
-            "stars": 23707
+            "last_commit": "2026-08-19T09:42:52Z",
+            "owner": "walkinglabs",
+            "repo": "learn-harness-engineering",
+            "stars": 12340
           }
         },
         {
           "node_type": "item",
-          "title": "agent.md",
-          "description": "A related standardization effort for machine-readable agent instructions across projects and tools.",
+          "title": "hardness1020/awesome-agent-architecture",
+          "description": "Trilingual architecture notes and runnable demos covering agent loops, tool execution, memory, permissions, context delivery, and orchestration.",
           "children": [],
           "repo_info": {
             "archived": false,
-            "language": null,
-            "last_commit": "2025-07-10T02:16:50Z",
-            "owner": "agentmd",
-            "repo": "agent.md",
-            "stars": 89
+            "id": 1277715563,
+            "language": "Python",
+            "last_commit": "2026-08-19T07:41:28Z",
+            "owner": "hardness1020",
+            "repo": "awesome-agent-architecture",
+            "stars": 602
           }
+        },
+        {
+          "node_type": "item",
+          "title": "Phelan164/codex-howto",
+          "description": "A Codex-focused engineering curriculum with installable skills, repository instructions, scoped permissions, testing, review, orchestration, and reproducible token measurements for building an inspectable coding-agent harness.",
+          "children": [],
+          "repo_info": {
+            "archived": false,
+            "id": 1310771497,
+            "language": "Python",
+            "last_commit": "2026-08-17T04:57:31Z",
+            "owner": "Phelan164",
+            "repo": "codex-howto",
+            "stars": 3
+          }
+        }
+      ],
+      "title": "Courses & Learning Resources"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "DevProjex",
+              "description": "GUI, TUI, and CLI tooling for selecting and exporting structured codebase context with folder trees, token estimates, ignore rules, and previews.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1011344357,
+                "language": "C#",
+                "last_commit": "2026-08-19T09:14:20Z",
+                "owner": "Avazbek22",
+                "repo": "DevProjex",
+                "stars": 15
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Deterministic Context Routing",
+              "description": "A context-management methodology that routes only the necessary-and-sufficient context to an agent through a deterministic chain (module registry → wiki → session state), cutting overread and context loss on large, under-documented multi-module codebases.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1289968679,
+                "language": null,
+                "last_commit": "2026-07-24T17:24:05Z",
+                "owner": "ai-erp-collab",
+                "repo": "deterministic-context-routing",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Context Design & Delivery"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "OpenViking",
+              "description": "Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1128123594,
+                "language": "Python",
+                "last_commit": "2026-08-19T12:08:55Z",
+                "owner": "volcengine",
+                "repo": "OpenViking",
+                "stars": 29826
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "wiki",
+              "description": "Indexed Markdown knowledge bases that give agents incremental project context through deterministic indexes, scoped CLI access, and merge handling for parallel edits.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1285643256,
+                "language": "Python",
+                "last_commit": "2026-08-18T21:14:33Z",
+                "owner": "plasma-ai",
+                "repo": "wiki",
+                "stars": 80
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Data Olympus",
+              "description": "Git-native project knowledge base and MCP server with governed proposal-to-acceptance workflows, validity windows, supersession chains, and retrieval of in-force engineering guidance.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1279181033,
+                "language": "Python",
+                "last_commit": "2026-08-12T04:29:30Z",
+                "owner": "knaisoma",
+                "repo": "data-olympus",
+                "stars": 22
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Memory & Knowledge Systems"
+        }
+      ],
+      "title": "Context, Memory & Working State"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "APort Agent Guardrails",
+              "description": "Deterministic pre-action authorization hooks for AI-agent tool calls, with adapters for Claude Code, Cursor, OpenClaw, LangChain, CrewAI, and related runtimes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1158144354,
+                "language": "Shell",
+                "last_commit": "2026-08-10T12:27:30Z",
+                "owner": "aporthq",
+                "repo": "aport-agent-guardrails",
+                "stars": 25
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Lurkr",
+              "description": "Static scanner that runs in CI before deploy to surface AI-agent capability risks, including shadow capabilities, credentials into LLM context, eval/subprocess in , direct prompt interpolation, and unverified MCP endpoints.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1231296020,
+                "language": "Python",
+                "last_commit": "2026-06-01T13:45:39Z",
+                "owner": "agentveil-protocol",
+                "repo": "lurkr",
+                "stars": 6
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "HEAAL",
+              "description": "Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1320414655,
+                "language": "Rust",
+                "last_commit": "2026-08-04T09:17:31Z",
+                "owner": "hyun06000",
+                "repo": "AIL",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Security, Authorization & Policy"
+        }
+      ],
+      "title": "Constraints, Guardrails & Safe Autonomy"
+    },
+    {
+      "description": null,
+      "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AGENTS.md",
+              "description": "A lightweight open format for repo-local instructions that tell agents how to work inside a codebase.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1040906383,
+                "language": "TypeScript",
+                "last_commit": "2026-03-12T14:26:14Z",
+                "owner": "agentsmd",
+                "repo": "agents.md",
+                "stars": 23725
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "agent.md",
+              "description": "A related standardization effort for machine-readable agent instructions across projects and tools.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1016769866,
+                "language": null,
+                "last_commit": "2025-07-10T02:16:50Z",
+                "owner": "agentmd",
+                "repo": "agent.md",
+                "stars": 89
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Instruction Files & Formats"
+        },
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "GitHub Spec Kit",
+              "description": "GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1042367133,
+                "language": "Python",
+                "last_commit": "2026-08-19T12:25:53Z",
+                "owner": "github",
+                "repo": "spec-kit",
+                "stars": 130254
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Context Repository-Driven Development (CRDD)",
+              "description": "A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1301518838,
+                "language": "JavaScript",
+                "last_commit": "2026-08-10T18:16:59Z",
+                "owner": "qual-lab",
+                "repo": "CRDD",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Spec-Driven Development"
         }
       ],
       "title": "Specs, Agent Files & Workflow Design"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "AgentOps",
-          "description": "Open-source Python SDK for agent monitoring, session replay, cost tracking, benchmarking, and tracing across common LLM and agent frameworks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-25T08:25:03Z",
-            "owner": "AgentOps-AI",
-            "repo": "agentops",
-            "stars": 5781
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "agenttrace",
-          "description": "Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-17T01:11:50Z",
-            "owner": "luoyuctl",
-            "repo": "agenttrace",
-            "stars": 120
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AgentOps",
+              "description": "Open-source Python SDK for agent monitoring, session replay, cost tracking, benchmarking, and tracing across common LLM and agent frameworks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 679017521,
+                "language": "Python",
+                "last_commit": "2026-06-25T08:25:03Z",
+                "owner": "AgentOps-AI",
+                "repo": "agentops",
+                "stars": 5786
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "agenttrace",
+              "description": "Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1226187070,
+                "language": "Rust",
+                "last_commit": "2026-08-17T01:11:50Z",
+                "owner": "luoyuctl",
+                "repo": "agenttrace",
+                "stars": 121
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "ax",
+              "description": "Local-first telemetry and memory graph for auditing coding-agent sessions, costs, skills, tool usage, and OTLP events across multiple agent runtimes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1232710515,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T07:27:52Z",
+                "owner": "Necmttn",
+                "repo": "ax",
+                "stars": 95
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "flameox",
+              "description": "Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1311955212,
+                "language": "Python",
+                "last_commit": "2026-08-17T09:15:39Z",
+                "owner": "morluto",
+                "repo": "flameox",
+                "stars": 34
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Telemetry, Tracing & Performance"
         }
       ],
       "title": "Evals & Observability"
@@ -86,472 +361,892 @@
       "description": "These benchmarks are especially useful when you want to compare harness quality, not just model quality. They stress context handling, tool calling, environment control, verification logic, and the runtime scaffolding around the model.",
       "items": [
         {
-          "node_type": "item",
-          "title": "ClawWork",
-          "description": "A real-world economic benchmark where AI agents complete professional tasks spanning 44 occupations, earning income while managing token costs and economic solvency, making it a direct test of harness efficiency under resource constraints.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-03T15:32:37Z",
-            "owner": "HKUDS",
-            "repo": "ClawWork",
-            "stars": 8351
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LeetCode-Hard Gym",
+              "description": "An RL environment interface to LeetCode's submission server for evaluating codegen agents, giving harnesses direct access to execution-based feedback on hard algorithmic problems.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 620096540,
+                "language": "Python",
+                "last_commit": "2024-07-07T23:24:13Z",
+                "owner": "GammaTauAI",
+                "repo": "leetcode-hard-gym",
+                "stars": 169
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SEC-bench",
+              "description": "A benchmark for evaluating LLM agents on real-world software security tasks including vulnerability reproduction and patching, stressing harness design around code execution, containerized environments, and security-aware tooling.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 996480288,
+                "language": "Python",
+                "last_commit": "2026-01-27T06:24:17Z",
+                "owner": "SEC-bench",
+                "repo": "SEC-bench",
+                "stars": 92
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Coding & Terminal Agents"
         },
         {
-          "node_type": "item",
-          "title": "AgentBench",
-          "description": "A cross-environment benchmark spanning OS, databases, knowledge graphs, web browsing, and more, useful for seeing whether a harness generalizes beyond one narrow task loop.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-02-08T17:01:05Z",
-            "owner": "THUDM",
-            "repo": "AgentBench",
-            "stars": 3675
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "VAB",
+              "description": "VisualAgentBench evaluates large multimodal models as visual foundation agents across embodied, GUI, and visual design tasks, useful for comparing harnesses on visually grounded, multi-step agent workflows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 839916063,
+                "language": "Python",
+                "last_commit": "2025-04-24T14:59:48Z",
+                "owner": "THUDM",
+                "repo": "VisualAgentBench",
+                "stars": 274
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WorkArena",
+              "description": "A benchmark for browser agents on common knowledge-work tasks, useful for comparing harnesses on realistic enterprise-style web workflows instead of toy browser tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 764848724,
+                "language": "Python",
+                "last_commit": "2026-04-25T18:29:28Z",
+                "owner": "ServiceNow",
+                "repo": "WorkArena",
+                "stars": 267
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AssistantBench",
+              "description": "A benchmark that evaluates web agents on realistic, time-consuming research tasks requiring multi-step tool use and information synthesis, making it a good proxy for harness quality in long-horizon web scenarios.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 828348513,
+                "language": "Python",
+                "last_commit": "2024-12-09T08:35:26Z",
+                "owner": "oriyor",
+                "repo": "assistantbench",
+                "stars": 72
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Computer Agent Arena",
+              "description": "An open evaluation platform where users compare LLM/VLM-based agents on real-world computer tasks ranging from general computer use to coding, data analysis, and video editing, surfacing harness differences across a wide task surface.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 962022211,
+                "language": "HTML",
+                "last_commit": "2026-02-26T15:47:16Z",
+                "owner": "xlang-ai",
+                "repo": "computer-agent-arena",
+                "stars": 67
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WebArena-Verified",
+              "description": "A verified web-agent benchmark with curated tasks and deterministic evaluators over agent responses and captured network traces, making it a good fit for measuring web-facing harnesses.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1108591363,
+                "language": "Python",
+                "last_commit": "2026-03-08T19:20:25Z",
+                "owner": "ServiceNow",
+                "repo": "webarena-verified",
+                "stars": 51
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AgentStudio",
+              "description": "An integrated benchmark suite with realistic environments and comprehensive toolkits for evaluating virtual agents on real computer software, useful for measuring harness depth against a broad task surface.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872505573,
+                "language": "Python",
+                "last_commit": "2024-12-03T04:10:58Z",
+                "owner": "SkyworkAI",
+                "repo": "agent-studio",
+                "stars": 17
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Web, GUI & Computer Use"
         },
         {
-          "node_type": "item",
-          "title": "tau2-bench",
-          "description": "A benchmark for realistic, multi-step agent tasks where success depends on tool use and execution quality rather than a single-shot answer.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-14T20:59:57Z",
-            "owner": "sierra-research",
-            "repo": "tau2-bench",
-            "stars": 1815
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AgentBench",
+              "description": "A cross-environment benchmark spanning OS, databases, knowledge graphs, web browsing, and more, useful for seeing whether a harness generalizes beyond one narrow task loop.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 671759870,
+                "language": "Python",
+                "last_commit": "2026-02-08T17:01:05Z",
+                "owner": "THUDM",
+                "repo": "AgentBench",
+                "stars": 3675
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "tau2-bench",
+              "description": "A benchmark for realistic, multi-step agent tasks where success depends on tool use and execution quality rather than a single-shot answer.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 999222244,
+                "language": "Python",
+                "last_commit": "2026-08-18T17:07:54Z",
+                "owner": "sierra-research",
+                "repo": "tau2-bench",
+                "stars": 1823
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "τ-Bench",
+              "description": "A benchmark that emulates dynamic conversations between a simulated user and a language agent equipped with domain-specific API tools and policy guidelines, making it useful for evaluating harnesses built around structured tool use and policy enforcement.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 811477986,
+                "language": "Python",
+                "last_commit": "2026-03-18T17:36:06Z",
+                "owner": "sierra-research",
+                "repo": "tau-bench",
+                "stars": 1390
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "TravelPlanner",
+              "description": "A benchmark for evaluating LLM agents on tool use and complex planning within multiple constraints, revealing how harness design handles multi-constraint satisfaction and long-horizon planning.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 737668213,
+                "language": "Python",
+                "last_commit": "2026-05-24T03:31:43Z",
+                "owner": "OSU-NLP-Group",
+                "repo": "TravelPlanner",
+                "stars": 538
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MCPMark",
+              "description": "A stress-testing benchmark for model and agent capabilities in real-world MCP tasks across tools like Notion, GitHub, and Postgres, making harness MCP integration quality directly measurable.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1011688294,
+                "language": "Python",
+                "last_commit": "2026-06-12T10:57:12Z",
+                "owner": "eval-sys",
+                "repo": "mcpmark",
+                "stars": 459
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "MCP Bench",
+              "description": "A benchmark for evaluating AI models on MCP server interactions, measuring tool accuracy, latency, and token use across server types, which directly reflects harness design choices around MCP integration.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 965403736,
+                "language": "Python",
+                "last_commit": "2025-09-03T02:11:07Z",
+                "owner": "modelscope",
+                "repo": "MCPBench",
+                "stars": 251
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "GTA",
+              "description": "A benchmark that evaluates the tool-use capability of LLM-based agents using human-written queries, real deployed tools, and authentic multimodal inputs, exposing harness gaps between isolated testing and real deployment.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 811330900,
+                "language": "Python",
+                "last_commit": "2026-04-20T06:28:54Z",
+                "owner": "open-compass",
+                "repo": "GTA",
+                "stars": 150
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tools, APIs & MCP"
         },
         {
-          "node_type": "item",
-          "title": "LLM Colosseum Leaderboard",
-          "description": "A platform that evaluates LLMs by having them fight in Street Fighter III, testing speed, adaptability, and real-time decision-making as proxies for harness responsiveness under tight latency constraints.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-03-21T10:35:26Z",
-            "owner": "OpenGenerativeAI",
-            "repo": "llm-colosseum",
-            "stars": 1485
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "LLM Colosseum Leaderboard",
+              "description": "A platform that evaluates LLMs by having them fight in Street Fighter III, testing speed, adaptability, and real-time decision-making as proxies for harness responsiveness under tight latency constraints.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 776301107,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-03-21T10:35:26Z",
+                "owner": "OpenGenerativeAI",
+                "repo": "llm-colosseum",
+                "stars": 1485
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "WildClawBench",
+              "description": "An in-the-wild benchmark running agents inside a live OpenClaw environment on 60 original tasks including multimodal, long-horizon, and safety-critical scenarios, making harness robustness under real-world conditions directly visible.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1189335371,
+                "language": "Python",
+                "last_commit": "2026-08-17T06:04:32Z",
+                "owner": "InternLM",
+                "repo": "WildClawBench",
+                "stars": 513
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AgentBoard",
+              "description": "A benchmark for multi-turn LLM agents complemented by an analytical evaluation board for assessing model performance beyond final success rates, making partial-progress and trajectory quality visible.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 740383610,
+                "language": "SAS",
+                "last_commit": "2024-05-20T13:44:42Z",
+                "owner": "hkust-nlp",
+                "repo": "AgentBoard",
+                "stars": 437
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "CharacterEval",
+              "description": "A benchmark for evaluating role-playing conversational agents using multi-turn dialogues and character profiles, with metrics across four dimensions including character fidelity and conversational coherence.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 741124310,
+                "language": "Python",
+                "last_commit": "2025-05-27T16:17:39Z",
+                "owner": "morecry",
+                "repo": "CharacterEval",
+                "stars": 301
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Multi-Agent, General & Interactive"
         },
         {
-          "node_type": "item",
-          "title": "τ-Bench",
-          "description": "A benchmark that emulates dynamic conversations between a simulated user and a language agent equipped with domain-specific API tools and policy guidelines, making it useful for evaluating harnesses built around structured tool use and policy enforcement.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-18T17:36:06Z",
-            "owner": "sierra-research",
-            "repo": "tau-bench",
-            "stars": 1387
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "TravelPlanner",
-          "description": "A benchmark for evaluating LLM agents on tool use and complex planning within multiple constraints, revealing how harness design handles multi-constraint satisfaction and long-horizon planning.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-05-24T03:31:43Z",
-            "owner": "OSU-NLP-Group",
-            "repo": "TravelPlanner",
-            "stars": 538
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "WildClawBench",
-          "description": "An in-the-wild benchmark running agents inside a live OpenClaw environment on 60 original tasks including multimodal, long-horizon, and safety-critical scenarios, making harness robustness under real-world conditions directly visible.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T06:04:32Z",
-            "owner": "InternLM",
-            "repo": "WildClawBench",
-            "stars": 513
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MCPMark",
-          "description": "A stress-testing benchmark for model and agent capabilities in real-world MCP tasks across tools like Notion, GitHub, and Postgres, making harness MCP integration quality directly measurable.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-06-12T10:57:12Z",
-            "owner": "eval-sys",
-            "repo": "mcpmark",
-            "stars": 459
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AgentBoard",
-          "description": "A benchmark for multi-turn LLM agents complemented by an analytical evaluation board for assessing model performance beyond final success rates, making partial-progress and trajectory quality visible.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "SAS",
-            "last_commit": "2024-05-20T13:44:42Z",
-            "owner": "hkust-nlp",
-            "repo": "AgentBoard",
-            "stars": 437
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "CharacterEval",
-          "description": "A benchmark for evaluating role-playing conversational agents using multi-turn dialogues and character profiles, with metrics across four dimensions including character fidelity and conversational coherence.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-05-27T16:17:39Z",
-            "owner": "morecry",
-            "repo": "CharacterEval",
-            "stars": 301
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "VAB",
-          "description": "VisualAgentBench evaluates large multimodal models as visual foundation agents across embodied, GUI, and visual design tasks, useful for comparing harnesses on visually grounded, multi-step agent workflows.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-04-24T14:59:48Z",
-            "owner": "THUDM",
-            "repo": "VisualAgentBench",
-            "stars": 274
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "WorkArena",
-          "description": "A benchmark for browser agents on common knowledge-work tasks, useful for comparing harnesses on realistic enterprise-style web workflows instead of toy browser tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-25T18:29:28Z",
-            "owner": "ServiceNow",
-            "repo": "WorkArena",
-            "stars": 267
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "MCP Bench",
-          "description": "A benchmark for evaluating AI models on MCP server interactions, measuring tool accuracy, latency, and token use across server types, which directly reflects harness design choices around MCP integration.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2025-09-03T02:11:07Z",
-            "owner": "modelscope",
-            "repo": "MCPBench",
-            "stars": 251
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "LeetCode-Hard Gym",
-          "description": "An RL environment interface to LeetCode's submission server for evaluating codegen agents, giving harnesses direct access to execution-based feedback on hard algorithmic problems.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-07-07T23:24:13Z",
-            "owner": "GammaTauAI",
-            "repo": "leetcode-hard-gym",
-            "stars": 170
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "GTA",
-          "description": "A benchmark that evaluates the tool-use capability of LLM-based agents using human-written queries, real deployed tools, and authentic multimodal inputs, exposing harness gaps between isolated testing and real deployment.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-20T06:28:54Z",
-            "owner": "open-compass",
-            "repo": "GTA",
-            "stars": 150
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SEC-bench",
-          "description": "A benchmark for evaluating LLM agents on real-world software security tasks including vulnerability reproduction and patching, stressing harness design around code execution, containerized environments, and security-aware tooling.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-01-27T06:24:17Z",
-            "owner": "SEC-bench",
-            "repo": "SEC-bench",
-            "stars": 91
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AssistantBench",
-          "description": "A benchmark that evaluates web agents on realistic, time-consuming research tasks requiring multi-step tool use and information synthesis, making it a good proxy for harness quality in long-horizon web scenarios.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-12-09T08:35:26Z",
-            "owner": "oriyor",
-            "repo": "assistantbench",
-            "stars": 72
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Computer Agent Arena",
-          "description": "An open evaluation platform where users compare LLM/VLM-based agents on real-world computer tasks ranging from general computer use to coding, data analysis, and video editing, surfacing harness differences across a wide task surface.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "HTML",
-            "last_commit": "2026-02-26T15:47:16Z",
-            "owner": "xlang-ai",
-            "repo": "computer-agent-arena",
-            "stars": 67
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "WebArena-Verified",
-          "description": "A verified web-agent benchmark with curated tasks and deterministic evaluators over agent responses and captured network traces, making it a good fit for measuring web-facing harnesses.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-03-08T19:20:25Z",
-            "owner": "ServiceNow",
-            "repo": "webarena-verified",
-            "stars": 51
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "AgentStudio",
-          "description": "An integrated benchmark suite with realistic environments and comprehensive toolkits for evaluating virtual agents on real computer software, useful for measuring harness depth against a broad task surface.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2024-12-03T04:10:58Z",
-            "owner": "SkyworkAI",
-            "repo": "agent-studio",
-            "stars": 17
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Olas Predict Benchmark",
-          "description": "A benchmark for evaluating agents on historical prediction market data, testing harness design for research, retrieval, and forecasting in long-horizon reasoning tasks.",
-          "children": [],
-          "repo_info": {
-            "archived": true,
-            "language": "Jupyter Notebook",
-            "last_commit": "2025-04-24T10:24:04Z",
-            "owner": "valory-xyz",
-            "repo": "olas-predict-benchmark",
-            "stars": 3
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "ClawWork",
+              "description": "A real-world economic benchmark where AI agents complete professional tasks spanning 44 occupations, earning income while managing token costs and economic solvency, making it a direct test of harness efficiency under resource constraints.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1158605484,
+                "language": "Python",
+                "last_commit": "2026-03-03T15:32:37Z",
+                "owner": "HKUDS",
+                "repo": "ClawWork",
+                "stars": 8355
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Olas Predict Benchmark",
+              "description": "A benchmark for evaluating agents on historical prediction market data, testing harness design for research, retrieval, and forecasting in long-horizon reasoning tasks.",
+              "children": [],
+              "repo_info": {
+                "archived": true,
+                "id": 744101180,
+                "language": "Jupyter Notebook",
+                "last_commit": "2025-04-24T10:24:04Z",
+                "owner": "valory-xyz",
+                "repo": "olas-predict-benchmark",
+                "stars": 3
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Safety, Robustness & Economic Agency"
         }
       ],
       "title": "Benchmarks"
     },
     {
-      "description": "",
+      "description": null,
       "items": [
         {
-          "node_type": "item",
-          "title": "deepagents",
-          "description": "LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T05:18:44Z",
-            "owner": "langchain-ai",
-            "repo": "deepagents",
-            "stars": 27892
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "AgentKit",
+              "description": "Inngest's TypeScript toolkit for building durable, workflow-aware agents on top of event-driven infrastructure.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 890168727,
+                "language": "TypeScript",
+                "last_commit": "2026-04-29T18:37:00Z",
+                "owner": "inngest",
+                "repo": "agent-kit",
+                "stars": 920
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SandBase Harness",
+              "description": "Apache-2.0 agent runtime with persistent sessions, governed MCP tools, credential handling, audit and replay, and interchangeable local or sandboxed execution backends.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1297278222,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T06:46:05Z",
+                "owner": "sandbaseai",
+                "repo": "sandbase-harness",
+                "stars": 623
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BitRouter",
+              "description": "Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1174756063,
+                "language": "Rust",
+                "last_commit": "2026-08-19T09:13:22Z",
+                "owner": "bitrouter",
+                "repo": "bitrouter",
+                "stars": 220
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "rust-norion",
+              "description": "GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1275173343,
+                "language": "Rust",
+                "last_commit": "2026-07-16T05:30:26Z",
+                "owner": "yanghao1143",
+                "repo": "rust-norion",
+                "stars": 18
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "DSH Studio",
+              "description": "Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1334791300,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T03:28:38Z",
+                "owner": "Moresyl",
+                "repo": "dsh-studio",
+                "stars": 10
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Runtime Foundations & Control Layers"
         },
         {
-          "node_type": "item",
-          "title": "SWE-agent",
-          "description": "A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T22:33:19Z",
-            "owner": "SWE-agent",
-            "repo": "SWE-agent",
-            "stars": 20076
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Harbor",
+              "description": "A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1032170083,
+                "language": "Python",
+                "last_commit": "2026-08-19T06:39:05Z",
+                "owner": "harbor-framework",
+                "repo": "harbor",
+                "stars": 4404
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SWE-ReX",
+              "description": "Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 872672155,
+                "language": "Python",
+                "last_commit": "2026-08-17T22:33:19Z",
+                "owner": "SWE-agent",
+                "repo": "SWE-ReX",
+                "stars": 573
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Mitos",
+              "description": "Snapshot-fork microVM sandboxes that give agent sessions clean, isolated starting states with declarative lifecycle control and parallel execution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1250328232,
+                "language": "Go",
+                "last_commit": "2026-07-18T07:26:31Z",
+                "owner": "mitos-run",
+                "repo": "mitos",
+                "stars": 81
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Sandboxes & Execution Infrastructure"
         },
         {
-          "node_type": "item",
-          "title": "browser-use/browser-harness",
-          "description": "A thin CDP-based browser harness that lets agents extend helper functions during execution, useful for inspecting self-healing web-task workflows.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-16T17:50:53Z",
-            "owner": "browser-use",
-            "repo": "browser-harness",
-            "stars": 16757
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "deepagents",
+              "description": "LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1027384981,
+                "language": "Python",
+                "last_commit": "2026-08-19T08:10:18Z",
+                "owner": "langchain-ai",
+                "repo": "deepagents",
+                "stars": 27931
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "SWE-agent",
+              "description": "A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 780737106,
+                "language": "Python",
+                "last_commit": "2026-08-17T22:33:19Z",
+                "owner": "SWE-agent",
+                "repo": "SWE-agent",
+                "stars": 20081
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Citadel",
+              "description": "A harness for Claude Code and OpenAI Codex with isolated worktrees, multi-agent coordination, and persisted memory and campaign state.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1186905400,
+                "language": "JavaScript",
+                "last_commit": "2026-08-18T21:24:43Z",
+                "owner": "SethGammon",
+                "repo": "Citadel",
+                "stars": 904
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "LoopTroop",
+              "description": "Local-first GUI harness for long-running coding work with multi-model planning, isolated worktrees, and fresh-context recovery loops.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1171667371,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T14:58:05Z",
+                "owner": "looptroop-ai",
+                "repo": "LoopTroop",
+                "stars": 122
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenCode Agent Orchestration Kit",
+              "description": "Reproducible OpenCode harness with role-based agents, explicit handoffs, repo-local skills, safe installation, and mechanical contract validation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1225420959,
+                "language": "JavaScript",
+                "last_commit": "2026-08-19T09:04:54Z",
+                "owner": "jcarlosrodicio",
+                "repo": "opencode-agent-orchestration-kit",
+                "stars": 62
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Agent AFK",
+              "description": "Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1260291990,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:06:38Z",
+                "owner": "griffinwork40",
+                "repo": "agent-afk",
+                "stars": 52
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Harness Evolver",
+              "description": "Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1196848284,
+                "language": "Python",
+                "last_commit": "2026-04-18T14:01:20Z",
+                "owner": "raphaelchristi",
+                "repo": "harness-evolver",
+                "stars": 43
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "forge-harness",
+              "description": "Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1250062394,
+                "language": "Shell",
+                "last_commit": "2026-08-19T05:57:54Z",
+                "owner": "chrono-meta",
+                "repo": "forge-harness",
+                "stars": 7
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "completely",
+              "description": "Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1259091852,
+                "language": "Shell",
+                "last_commit": "2026-06-11T09:26:06Z",
+                "owner": "23ag1",
+                "repo": "completely",
+                "stars": 5
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "RailWarden",
+              "description": "Deterministic control plane for multi-agent software work with dependency-aware packages, isolated worktrees, durable validation evidence, recovery checkpoints, and integration gates.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1282109744,
+                "language": "Python",
+                "last_commit": "2026-08-04T17:01:22Z",
+                "owner": "advaith-1212",
+                "repo": "railwarden",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Coding-Agent Harnesses"
         },
         {
-          "node_type": "item",
-          "title": "Harbor",
-          "description": "A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-18T00:30:10Z",
-            "owner": "harbor-framework",
-            "repo": "harbor",
-            "stars": 4361
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Orkas",
+              "description": "Local-first desktop harness for coordinating multiple agents with shared files, independent work contexts, human approval gates, and resumable execution.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1224575142,
+                "language": "TypeScript",
+                "last_commit": "2026-08-16T11:48:47Z",
+                "owner": "Orkas-AI",
+                "repo": "Orkas",
+                "stars": 1341
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Agentlas OS",
+              "description": "Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1258962324,
+                "language": "Python",
+                "last_commit": "2026-08-19T09:11:17Z",
+                "owner": "agentlas-ai",
+                "repo": "Agentlas-OS",
+                "stars": 1158
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Cowork Forge",
+              "description": "MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1140638165,
+                "language": "Rust",
+                "last_commit": "2026-07-17T09:44:51Z",
+                "owner": "sopaco",
+                "repo": "cowork-forge",
+                "stars": 89
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Squadron",
+              "description": "MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1139500512,
+                "language": "Go",
+                "last_commit": "2026-08-19T02:32:10Z",
+                "owner": "mlund01",
+                "repo": "squadron",
+                "stars": 8
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Multi-Agent Orchestration"
         },
         {
-          "node_type": "item",
-          "title": "AgentKit",
-          "description": "Inngest's TypeScript toolkit for building durable, workflow-aware agents on top of event-driven infrastructure.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-04-29T18:37:00Z",
-            "owner": "inngest",
-            "repo": "agent-kit",
-            "stars": 920
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "browser-use/browser-harness",
+              "description": "A thin CDP-based browser harness that lets agents extend helper functions during execution, useful for inspecting self-healing web-task workflows.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1213049020,
+                "language": "Python",
+                "last_commit": "2026-08-19T11:28:53Z",
+                "owner": "browser-use",
+                "repo": "browser-harness",
+                "stars": 16796
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "BrowserAct",
+              "description": "Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1151333143,
+                "language": "Python",
+                "last_commit": "2026-08-12T03:32:38Z",
+                "owner": "browser-act",
+                "repo": "skills",
+                "stars": 5355
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Uni-CLI",
+              "description": "Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and that auto-registers one MCP tool per adapter. ~80 tokens per invocation.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1201041209,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T11:35:39Z",
+                "owner": "olo-dot-io",
+                "repo": "Uni-CLI",
+                "stars": 269
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "OpenAgentRelay",
+              "description": "Inspectable runtime boundary for exposing a local agent or automation as a keyed LAN capability with target verification, bounded conversations, JSON output, and explicit exit codes.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1299921639,
+                "language": "Python",
+                "last_commit": "2026-07-14T11:58:33Z",
+                "owner": "ShakespeareLabs",
+                "repo": "open-agent-relay",
+                "stars": 2
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Browser, MCP & Tool Integration"
         },
         {
-          "node_type": "item",
-          "title": "Citadel",
-          "description": "A harness for Claude Code and OpenAI Codex with isolated worktrees, multi-agent coordination, and persisted memory and campaign state.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "JavaScript",
-            "last_commit": "2026-08-13T19:13:53Z",
-            "owner": "SethGammon",
-            "repo": "Citadel",
-            "stars": 904
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "SWE-ReX",
-          "description": "Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-08-17T22:33:19Z",
-            "owner": "SWE-agent",
-            "repo": "SWE-ReX",
-            "stars": 572
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Uni-CLI",
-          "description": "Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and that auto-registers one MCP tool per adapter. ~80 tokens per invocation.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "TypeScript",
-            "last_commit": "2026-08-17T11:35:39Z",
-            "owner": "olo-dot-io",
-            "repo": "Uni-CLI",
-            "stars": 269
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Harness Evolver",
-          "description": "Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Python",
-            "last_commit": "2026-04-18T14:01:20Z",
-            "owner": "raphaelchristi",
-            "repo": "harness-evolver",
-            "stars": 43
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "HEAAL",
-          "description": "Grammar-enforced safety constraints for AI agents via AIL (AI-Intent Language).",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": "Rust",
-            "last_commit": "2026-08-04T09:17:31Z",
-            "owner": "hyun06000",
-            "repo": "AIL",
-            "stars": 2
-          }
-        },
-        {
-          "node_type": "item",
-          "title": "Bring Your AI MCP",
-          "description": "Public harness-migration reference for Claude Code to Codex moves, with installable auditor artifacts and explicit validation notes for hooks, MCP config, and instruction-file differences.",
-          "children": [],
-          "repo_info": {
-            "archived": false,
-            "language": null,
-            "last_commit": "2026-05-25T02:03:20Z",
-            "owner": "unitedideas",
-            "repo": "bringyour-mcp",
-            "stars": 1
-          }
+          "children": [
+            {
+              "node_type": "item",
+              "title": "codex-profiles",
+              "description": "Codex CLI and Desktop profile launcher that isolates authentication, configuration, sessions, connectors, plugins, and logs by .",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1220652910,
+                "language": "Shell",
+                "last_commit": "2026-08-09T17:49:22Z",
+                "owner": "Ducksss",
+                "repo": "codex-profiles",
+                "stars": 95
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "AgentPlane",
+              "description": "Git-native workflow-control harness that stores task records, policy, verification evidence, and closure state as reviewable repository artifacts.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1143137828,
+                "language": "TypeScript",
+                "last_commit": "2026-08-19T12:30:34Z",
+                "owner": "basilisk-labs",
+                "repo": "agentplane",
+                "stars": 73
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "stelow",
+              "description": "Agentic product-workflow harness with Shape Up boundaries, adversarial plan review, acceptance-based execution contracts, and audit loops.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1240249001,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T21:51:33Z",
+                "owner": "calionauta",
+                "repo": "stelow",
+                "stars": 11
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Build A Harness",
+              "description": "Apache-2.0 visual canvas for agent harnesses that compiles a runtime-neutral FlowSpec to several orchestration frameworks.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1237564576,
+                "language": "TypeScript",
+                "last_commit": "2026-08-18T07:17:05Z",
+                "owner": "3IVIS",
+                "repo": "buildaharness",
+                "stars": 11
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "agent-harness",
+              "description": "Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1207318937,
+                "language": "TypeScript",
+                "last_commit": "2026-08-17T09:18:54Z",
+                "owner": "ar27111994",
+                "repo": "agent-harness",
+                "stars": 5
+              }
+            },
+            {
+              "node_type": "item",
+              "title": "Bring Your AI MCP",
+              "description": "Public harness-migration reference for Claude Code to Codex moves, with installable auditor artifacts and explicit validation notes for hooks, MCP config, and instruction-file differences.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1222884062,
+                "language": null,
+                "last_commit": "2026-05-25T02:03:20Z",
+                "owner": "unitedideas",
+                "repo": "bringyour-mcp",
+                "stars": 1
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Workflow, Profiles & Asset Management"
         }
       ],
       "title": "Runtimes, Harnesses & Reference Implementations"
-    },
-    {
-      "description": "CC0 1.0",
-      "items": [],
-      "title": "License"
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-18T13:25:20.801Z",
+    "last_updated": "2026-08-19T12:33:20.999Z",
     "original_repository": "walkinglabs/awesome-harness-engineering",
-    "original_repository_sha": "f84f1701974cf1ad67dd774b025b33e613275cee",
+    "original_repository_id": 1195208341,
+    "original_repository_sha": "cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad",
     "enhanced_repository": "enhansome/enhansome-harness-engineering",
     "enhanced_repository_description": null,
     "title": "Awesome Harness Engineering with stars"
