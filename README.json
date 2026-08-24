@@ -15,7 +15,7 @@
             "last_commit": "2026-08-21T10:31:08Z",
             "owner": "walkinglabs",
             "repo": "learn-harness-engineering",
-            "stars": 13978
+            "stars": 13982
           }
         },
         {
@@ -65,7 +65,7 @@
                 "archived": false,
                 "id": 1011344357,
                 "language": "C#",
-                "last_commit": "2026-08-24T13:07:59Z",
+                "last_commit": "2026-08-24T13:42:53Z",
                 "owner": "Avazbek22",
                 "repo": "DevProjex",
                 "stars": 16
@@ -102,10 +102,10 @@
                 "archived": false,
                 "id": 1128123594,
                 "language": "Python",
-                "last_commit": "2026-08-24T13:28:12Z",
+                "last_commit": "2026-08-24T13:36:44Z",
                 "owner": "volcengine",
                 "repo": "OpenViking",
-                "stars": 32819
+                "stars": 32828
               }
             },
             {
@@ -149,6 +149,28 @@
     {
       "description": null,
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "mcp-guardian",
+              "description": "MCP proxy for progressive tool discovery, scope-based allow/block lists, and audit logging, reducing startup context while preventing blocked tools from being discovered or called.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1231747862,
+                "language": "Python",
+                "last_commit": "2026-07-14T18:21:42Z",
+                "owner": "S1LV3RJ1NX",
+                "repo": "mcp-guardian",
+                "stars": 0
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Tool Design & Execution Boundaries"
+        },
         {
           "children": [
             {
@@ -258,7 +280,7 @@
                 "last_commit": "2026-08-21T21:29:37Z",
                 "owner": "github",
                 "repo": "spec-kit",
-                "stars": 131069
+                "stars": 131077
               }
             },
             {
@@ -287,6 +309,28 @@
     {
       "description": null,
       "items": [
+        {
+          "children": [
+            {
+              "node_type": "item",
+              "title": "Better Harness",
+              "description": "Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.",
+              "children": [],
+              "repo_info": {
+                "archived": false,
+                "id": 1307679581,
+                "language": "JavaScript",
+                "last_commit": "2026-08-24T13:51:01Z",
+                "owner": "QoderAI",
+                "repo": "better-harness",
+                "stars": 1956
+              }
+            }
+          ],
+          "description": null,
+          "node_type": "group",
+          "title": "Verification & Quality Gates"
+        },
         {
           "children": [
             {
@@ -508,7 +552,7 @@
                 "last_commit": "2026-02-08T17:01:05Z",
                 "owner": "THUDM",
                 "repo": "AgentBench",
-                "stars": 3686
+                "stars": 3687
               }
             },
             {
@@ -687,7 +731,7 @@
                 "last_commit": "2026-03-03T15:32:37Z",
                 "owner": "HKUDS",
                 "repo": "ClawWork",
-                "stars": 8498
+                "stars": 8499
               }
             },
             {
@@ -809,7 +853,7 @@
                 "archived": false,
                 "id": 1032170083,
                 "language": "Python",
-                "last_commit": "2026-08-24T05:48:43Z",
+                "last_commit": "2026-08-24T13:51:49Z",
                 "owner": "harbor-framework",
                 "repo": "harbor",
                 "stars": 4574
@@ -861,10 +905,10 @@
                 "archived": false,
                 "id": 1027384981,
                 "language": "Python",
-                "last_commit": "2026-08-24T13:22:14Z",
+                "last_commit": "2026-08-24T13:47:31Z",
                 "owner": "langchain-ai",
                 "repo": "deepagents",
-                "stars": 28349
+                "stars": 28350
               }
             },
             {
@@ -879,7 +923,7 @@
                 "last_commit": "2026-08-17T22:33:19Z",
                 "owner": "SWE-agent",
                 "repo": "SWE-agent",
-                "stars": 20120
+                "stars": 20119
               }
             },
             {
@@ -1033,7 +1077,7 @@
                 "archived": false,
                 "id": 1258962324,
                 "language": "Python",
-                "last_commit": "2026-08-24T13:04:46Z",
+                "last_commit": "2026-08-24T13:50:38Z",
                 "owner": "agentlas-ai",
                 "repo": "Agentlas-OS",
                 "stars": 1139
@@ -1088,7 +1132,7 @@
                 "last_commit": "2026-08-22T09:32:08Z",
                 "owner": "browser-use",
                 "repo": "browser-harness",
-                "stars": 17094
+                "stars": 17095
               }
             },
             {
@@ -1103,7 +1147,7 @@
                 "last_commit": "2026-08-12T03:32:38Z",
                 "owner": "browser-act",
                 "repo": "skills",
-                "stars": 5417
+                "stars": 5418
               }
             },
             {
@@ -1243,7 +1287,7 @@
     }
   ],
   "metadata": {
-    "last_updated": "2026-08-24T13:31:57.405Z",
+    "last_updated": "2026-08-24T13:57:53.923Z",
     "original_repository": "walkinglabs/awesome-harness-engineering",
     "original_repository_id": 1195208341,
     "original_repository_sha": "cff9b006ef64c624a62cbb1ee36b0c4b2b3a67ad",
