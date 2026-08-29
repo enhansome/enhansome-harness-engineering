@@ -43,8 +43,8 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ## Courses & Learning Resources
 
-* [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) ⭐ 14,457 | 🐛 9 | 🌐 TypeScript | 📅 2026-08-26 - A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.
-* [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) ⭐ 744 | 🐛 5 | 🌐 Python | 📅 2026-08-28 - Trilingual architecture notes and runnable demos covering agent loops, tool execution, memory, permissions, context delivery, and orchestration.
+* [walkinglabs/learn-harness-engineering](https://github.com/walkinglabs/learn-harness-engineering) ⭐ 14,464 | 🐛 9 | 🌐 TypeScript | 📅 2026-08-26 - A project-based course repository on making Codex and Claude Code more reliable, centered on an Electron personal knowledge base app with lecture handouts, example artifacts, and practical harness projects.
+* [hardness1020/awesome-agent-architecture](https://github.com/hardness1020/awesome-agent-architecture) ⭐ 758 | 🐛 3 | 🌐 Python | 📅 2026-08-28 - Trilingual architecture notes and runnable demos covering agent loops, tool execution, memory, permissions, context delivery, and orchestration.
 * [Phelan164/codex-howto](https://github.com/Phelan164/codex-howto) ⭐ 3 | 🐛 4 | 🌐 Python | 📅 2026-08-28 - A Codex-focused engineering curriculum with installable skills, repository instructions, scoped permissions, testing, review, orchestration, and reproducible token measurements for building an inspectable coding-agent harness.
 
 ## Foundations
@@ -80,8 +80,8 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ### Memory & Knowledge Systems
 
-* [OpenViking](https://github.com/volcengine/OpenViking) ⭐ 34,136 | 🐛 557 | 🌐 Python | 📅 2026-08-28 - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
-* [wiki](https://github.com/plasma-ai/wiki) ⭐ 81 | 🐛 1 | 🌐 Python | 📅 2026-08-27 - Indexed Markdown knowledge bases that give agents incremental project context through deterministic indexes, scoped CLI access, and merge handling for parallel edits.
+* [OpenViking](https://github.com/volcengine/OpenViking) ⭐ 34,166 | 🐛 563 | 🌐 Python | 📅 2026-08-29 - Context database that unifies agent memory, knowledge retrieval, and skills behind an MCP-accessible storage layer.
+* [wiki](https://github.com/plasma-ai/wiki) ⭐ 81 | 🐛 2 | 🌐 Python | 📅 2026-08-29 - Indexed Markdown knowledge bases that give agents incremental project context through deterministic indexes, scoped CLI access, and merge handling for parallel edits.
 * [Data Olympus](https://github.com/knaisoma/data-olympus) ⭐ 23 | 🐛 25 | 🌐 Python | 📅 2026-08-12 - Git-native project knowledge base and MCP server with governed proposal-to-acceptance workflows, validity windows, supersession chains, and retrieval of in-force engineering guidance.
 
 ## Constraints, Guardrails & Safe Autonomy
@@ -109,13 +109,13 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ### Instruction Files & Formats
 
-* [AGENTS.md](https://github.com/agentsmd/agents.md) ⭐ 23,968 | 🐛 169 | 🌐 TypeScript | 📅 2026-08-25 - A lightweight open format for repo-local instructions that tell agents how to work inside a codebase.
+* [AGENTS.md](https://github.com/agentsmd/agents.md) ⭐ 23,970 | 🐛 169 | 🌐 TypeScript | 📅 2026-08-25 - A lightweight open format for repo-local instructions that tell agents how to work inside a codebase.
 * [agent.md](https://github.com/agentmd/agent.md) ⭐ 90 | 🐛 3 | 📅 2025-07-10 - A related standardization effort for machine-readable agent instructions across projects and tools.
 
 ### Spec-Driven Development
 
-* [GitHub Spec Kit](https://github.com/github/spec-kit) ⭐ 132,043 | 🐛 333 | 🌐 Python | 📅 2026-08-28 - GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.
-* [Context Repository-Driven Development (CRDD)](https://github.com/qual-lab/CRDD) ⭐ 0 | 🐛 1 | 🌐 JavaScript | 📅 2026-08-28 - A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.
+* [GitHub Spec Kit](https://github.com/github/spec-kit) ⭐ 132,069 | 🐛 333 | 🌐 Python | 📅 2026-08-28 - GitHub's toolkit for spec-driven development, useful when you want agents to execute against explicit product and engineering specs.
+* [Context Repository-Driven Development (CRDD)](https://github.com/qual-lab/CRDD) ⭐ 0 | 🐛 1 | 🌐 JavaScript | 📅 2026-08-29 - A repository-centered methodology for preserving product intent, decisions, specifications, evidence, and traceability as durable context while keeping approval authority with humans.
 * [Understanding Spec-Driven-Development: Kiro, spec-kit, and Tessl](https://martinfowler.com/articles/exploring-gen-ai/sdd-3-tools.html) - Thoughtworks on why strong specs make AI-assisted software delivery more dependable.
 
 ### Operating Principles & Human Oversight
@@ -141,7 +141,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 
 ### Verification & Quality Gates
 
-* [Better Harness](https://github.com/QoderAI/better-harness) ⭐ 2,029 | 🐛 6 | 🌐 JavaScript | 📅 2026-08-28 - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
+* [Better Harness](https://github.com/QoderAI/better-harness) ⭐ 2,030 | 🐛 6 | 🌐 JavaScript | 📅 2026-08-29 - Reviewer for coding-agent workflows that turns repository and session evidence into prioritized, verifiable harness improvements while keeping unobserved behavior explicit.
 * [Assessing internal quality while coding with an agent](https://martinfowler.com/articles/exploring-gen-ai/ccmenu-quality.html) - Thoughtworks on moving quality checks into the loop instead of relying on after-the-fact manual review.
 * [Learning to Verify AI-Generated Code](https://openhands.dev/blog/20260305-learning-to-verify-ai-generated-code) - OpenHands' overview of a layered verification stack using trajectory critics trained on production traces for reranking, early stopping, and review-time quality control.
 * [Improving Deep Agents with harness engineering](https://blog.langchain.com/improving-deep-agents-with-harness-engineering/) - LangChain's evidence that harness changes alone can significantly improve benchmark performance.
@@ -151,7 +151,7 @@ Generic agent tooling is out of scope unless the page directly covers harness de
 * [AgentOps](https://github.com/AgentOps-AI/agentops) ⭐ 5,803 | 🐛 172 | 🌐 Python | 📅 2026-06-25 - Open-source Python SDK for agent monitoring, session replay, cost tracking, benchmarking, and tracing across common LLM and agent frameworks.
 * [agenttrace](https://github.com/luoyuctl/agenttrace) ⭐ 124 | 🐛 7 | 🌐 Rust | 📅 2026-08-24 - Local-first TUI/CLI for auditing AI coding-agent session traces, health gates, cost spikes, tool failures, latency gaps, and attempt-to-attempt diffs.
 * [ax](https://github.com/Necmttn/ax) ⭐ 103 | 🐛 34 | 🌐 TypeScript | 📅 2026-08-26 - Local-first telemetry and memory graph for auditing coding-agent sessions, costs, skills, tool usage, and OTLP events across multiple agent runtimes.
-* [flameox](https://github.com/morluto/flameox) ⭐ 35 | 🐛 2 | 🌐 Python | 📅 2026-08-24 - Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.
+* [flameox](https://github.com/morluto/flameox) ⭐ 35 | 🐛 70 | 🌐 Python | 📅 2026-08-29 - Profiling and optimization toolkit for agents: bounded CLI and MCP workflows capture traces, preserve native evidence, and compare experiments behind runtime conclusions.
 * [OpenTelemetry Semantic Conventions for Generative AI Systems](https://opentelemetry.io/docs/specs/semconv/gen-ai/) - Standard span, metric, event, and attribute conventions for instrumenting LLM and agent workflows so harness traces stay portable across observability backends.
 * [Quantifying infrastructure noise in agentic coding evals](https://www.anthropic.com/engineering/infrastructure-noise) - Anthropic on how runtime configuration can move coding benchmark scores by more than many leaderboard gaps.
 
@@ -187,7 +187,7 @@ These benchmarks are especially useful when you want to compare harness quality,
 ### Tools, APIs & MCP
 
 * [AgentBench](https://github.com/THUDM/AgentBench) ⭐ 3,701 | 🐛 76 | 🌐 Python | 📅 2026-02-08 - A cross-environment benchmark spanning OS, databases, knowledge graphs, web browsing, and more, useful for seeing whether a harness generalizes beyond one narrow task loop.
-* [tau2-bench](https://github.com/sierra-research/tau2-bench) ⭐ 1,904 | 🐛 184 | 🌐 Python | 📅 2026-08-27 - A benchmark for realistic, multi-step agent tasks where success depends on tool use and execution quality rather than a single-shot answer.
+* [tau2-bench](https://github.com/sierra-research/tau2-bench) ⭐ 1,905 | 🐛 184 | 🌐 Python | 📅 2026-08-27 - A benchmark for realistic, multi-step agent tasks where success depends on tool use and execution quality rather than a single-shot answer.
 * [τ-Bench](https://github.com/sierra-research/tau-bench) ⭐ 1,410 | 🐛 52 | 🌐 Python | 📅 2026-03-18 - A benchmark that emulates dynamic conversations between a simulated user and a language agent equipped with domain-specific API tools and policy guidelines, making it useful for evaluating harnesses built around structured tool use and policy enforcement.
 * [TravelPlanner](https://github.com/OSU-NLP-Group/TravelPlanner) ⭐ 542 | 🐛 2 | 🌐 Python | 📅 2026-05-24 - A benchmark for evaluating LLM agents on tool use and complex planning within multiple constraints, revealing how harness design handles multi-constraint satisfaction and long-horizon planning.
 * [MCPMark](https://github.com/eval-sys/mcpmark) ⭐ 459 | 🐛 21 | 🌐 Python | 📅 2026-06-12 - A stress-testing benchmark for model and agent capabilities in real-world MCP tasks across tools like Notion, GitHub, and Postgres, making harness MCP integration quality directly measurable.
@@ -219,51 +219,51 @@ These benchmarks are especially useful when you want to compare harness quality,
 ### Runtime Foundations & Control Layers
 
 * [AgentKit](https://github.com/inngest/agent-kit) ⭐ 924 | 🐛 49 | 🌐 TypeScript | 📅 2026-04-29 - Inngest's TypeScript toolkit for building durable, workflow-aware agents on top of event-driven infrastructure.
-* [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) ⭐ 636 | 🐛 4 | 🌐 TypeScript | 📅 2026-08-28 - Apache-2.0 agent runtime with persistent sessions, governed MCP tools, credential handling, audit and replay, and interchangeable local or sandboxed execution backends.
-* [BitRouter](https://github.com/bitrouter/bitrouter) ⭐ 222 | 🐛 22 | 🌐 Rust | 📅 2026-08-28 - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
-* [DSH Studio](https://github.com/Moresyl/dsh-studio) ⭐ 20 | 🐛 0 | 🌐 Rust | 📅 2026-08-28 - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
+* [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) ⭐ 637 | 🐛 5 | 🌐 TypeScript | 📅 2026-08-28 - Apache-2.0 agent runtime with persistent sessions, governed MCP tools, credential handling, audit and replay, and interchangeable local or sandboxed execution backends.
+* [BitRouter](https://github.com/bitrouter/bitrouter) ⭐ 222 | 🐛 22 | 🌐 Rust | 📅 2026-08-29 - Apache-2.0 model router with cross-protocol routing, MCP gateway, guardrails, observability, virtual keys, and multi-account failover.
+* [DSH Studio](https://github.com/Moresyl/dsh-studio) ⭐ 20 | 🐛 0 | 🌐 Rust | 📅 2026-08-29 - Cross-platform desktop host for DeepSeek Harness with health probes, restart backoff, collision-free ports, and whole-process-tree cleanup.
 * [rust-norion](https://github.com/yanghao1143/rust-norion) ⭐ 18 | 🐛 2 | 🌐 Rust | 📅 2026-07-16 - GPL-3.0 Rust inference-control prototype exploring runtime boundaries, governed memory and replay, evidence-based writer gates, audit traces, and rollback for self-evolving agent systems.
 * [Building agents with the Claude Agent SDK](https://claude.com/blog/building-agents-with-the-claude-agent-sdk) - Anthropic's guide to a production-oriented agent SDK with sessions, tools, and orchestration support.
 
 ### Sandboxes & Execution Infrastructure
 
-* [Harbor](https://github.com/harbor-framework/harbor) ⭐ 4,748 | 🐛 778 | 🌐 Python | 📅 2026-08-28 - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
+* [Harbor](https://github.com/harbor-framework/harbor) ⭐ 4,753 | 🐛 779 | 🌐 Python | 📅 2026-08-29 - A generalized harness for evaluating and improving agents at scale, released alongside Terminal-Bench 2.0.
 * [SWE-ReX](https://github.com/SWE-agent/SWE-ReX) ⭐ 580 | 🐛 55 | 🌐 Python | 📅 2026-08-24 - Sandboxed code execution infrastructure for AI agents, useful when harness work starts to merge into execution runtime design.
 * [Mitos](https://github.com/mitos-run/mitos) ⭐ 89 | 🐛 72 | 🌐 Go | 📅 2026-07-18 - Snapshot-fork microVM sandboxes that give agent sessions clean, isolated starting states with declarative lifecycle control and parallel execution.
 
 ### Coding-Agent Harnesses
 
-* [deepagents](https://github.com/langchain-ai/deepagents) ⭐ 28,659 | 🐛 162 | 🌐 Python | 📅 2026-08-28 - LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.
-* [SWE-agent](https://github.com/SWE-agent/SWE-agent) ⭐ 20,167 | 🐛 82 | 🌐 Python | 📅 2026-08-24 - A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.
+* [deepagents](https://github.com/langchain-ai/deepagents) ⭐ 28,667 | 🐛 159 | 🌐 Python | 📅 2026-08-29 - LangChain's open-source project for building deeper, longer-running agents with middleware and harness patterns.
+* [SWE-agent](https://github.com/SWE-agent/SWE-agent) ⭐ 20,169 | 🐛 82 | 🌐 Python | 📅 2026-08-24 - A mature research coding agent that makes the harness, prompt, tools, and environment design directly inspectable.
 * [Citadel](https://github.com/SethGammon/Citadel) ⭐ 912 | 🐛 1 | 🌐 JavaScript | 📅 2026-08-27 - A harness for Claude Code and OpenAI Codex with isolated worktrees, multi-agent coordination, and persisted memory and campaign state.
-* [LoopTroop](https://github.com/looptroop-ai/LoopTroop) ⭐ 128 | 🐛 2 | 🌐 TypeScript | 📅 2026-08-28 - Local-first GUI harness for long-running coding work with multi-model planning, isolated worktrees, and fresh-context recovery loops.
+* [LoopTroop](https://github.com/looptroop-ai/LoopTroop) ⭐ 128 | 🐛 3 | 🌐 TypeScript | 📅 2026-08-29 - Local-first GUI harness for long-running coding work with multi-model planning, isolated worktrees, and fresh-context recovery loops.
 * [OpenCode Agent Orchestration Kit](https://github.com/jcarlosrodicio/opencode-agent-orchestration-kit) ⭐ 103 | 🐛 4 | 🌐 JavaScript | 📅 2026-08-28 - Reproducible OpenCode harness with role-based agents, explicit handoffs, repo-local skills, safe installation, and mechanical contract validation.
-* [Agent AFK](https://github.com/griffinwork40/agent-afk) ⭐ 53 | 🐛 25 | 🌐 TypeScript | 📅 2026-08-28 - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
-* [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) ⭐ 46 | 🐛 4 | 🌐 Python | 📅 2026-04-18 - Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).
-* [forge-harness](https://github.com/chrono-meta/forge-harness) ⭐ 14 | 🐛 2 | 🌐 Shell | 📅 2026-08-28 - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
+* [Agent AFK](https://github.com/griffinwork40/agent-afk) ⭐ 53 | 🐛 24 | 🌐 TypeScript | 📅 2026-08-29 - Headless coding-agent harness for asynchronous runs with explicit terminal states, editable lifecycle hooks, permission gates, model routing, and append-only traces.
+* [Harness Evolver](https://github.com/raphaelchristi/harness-evolver) ⭐ 47 | 🐛 4 | 🌐 Python | 📅 2026-04-18 - Claude Code plugin that autonomously evolves LLM agent harnesses using multi-agent proposers, LangSmith-backed evaluation, and git worktree isolation. Based on Meta-Harness (Lee et al., 2026).
+* [forge-harness](https://github.com/chrono-meta/forge-harness) ⭐ 14 | 🐛 4 | 🌐 Shell | 📅 2026-08-29 - Claude Code plugin for adversarial validation, source-grounding audits, session-learning capture, and pre-deployment transfer simulation.
 * [completely](https://github.com/23ag1/completely) ⭐ 5 | 🐛 0 | 🌐 Shell | 📅 2026-06-11 - Claude Code plugin harness with a default-fail evaluator, deterministic write and close gates, orphan recovery, and parallel-worker integration checks.
 * [RailWarden](https://github.com/advaith-1212/railwarden) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-08-04 - Deterministic control plane for multi-agent software work with dependency-aware packages, isolated worktrees, durable validation evidence, recovery checkpoints, and integration gates.
 * [Ralph Wiggum as a Software Engineer](https://ghuntley.com/ralph/) - Geoffrey Huntley's write-up of "Ralph," a minimalist `while :; do cat PROMPT.md | claude-code; done` harness pattern that uses single-task loops, deterministic prompt stacking, and bounded subagent parallelism to drive long-running autonomous coding.
 
 ### Multi-Agent Orchestration
 
-* [Orkas](https://github.com/Orkas-AI/Orkas) ⭐ 1,504 | 🐛 12 | 🌐 TypeScript | 📅 2026-08-28 - Local-first desktop harness for coordinating multiple agents with shared files, independent work contexts, human approval gates, and resumable execution.
-* [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) ⭐ 1,114 | 🐛 0 | 🌐 Python | 📅 2026-08-28 - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
+* [Orkas](https://github.com/Orkas-AI/Orkas) ⭐ 1,508 | 🐛 12 | 🌐 TypeScript | 📅 2026-08-29 - Local-first desktop harness for coordinating multiple agents with shared files, independent work contexts, human approval gates, and resumable execution.
+* [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) ⭐ 1,115 | 🐛 0 | 🌐 Python | 📅 2026-08-28 - Local-first agent operation environment that composes specialist teams while retaining host-local tools, permissions, memory boundaries, and verification rules.
 * [Cowork Forge](https://github.com/sopaco/cowork-forge) ⭐ 89 | 🐛 0 | 🌐 Rust | 📅 2026-08-25 - MIT-licensed multi-agent software-development workflow with specialized roles and a staged pipeline from requirements through delivery.
 * [Squadron](https://github.com/mlund01/squadron) ⭐ 8 | 🐛 14 | 🌐 Go | 📅 2026-08-20 - MIT-licensed declarative runtime for multi-agent workflows defined in HCL, including orchestration, state, dependency resolution, routing, persistence, and resume.
 * [How we built our multi-agent research system](https://www.anthropic.com/engineering/multi-agent-research-system) - Anthropic's architecture write-up for a multi-agent system with separation of roles and structured coordination.
 
 ### Browser, MCP & Tool Integration
 
-* [browser-use/browser-harness](https://github.com/browser-use/browser-harness) ⭐ 17,212 | 🐛 282 | 🌐 Python | 📅 2026-08-28 - A thin CDP-based browser harness that lets agents extend helper functions during execution, useful for inspecting self-healing web-task workflows.
-* [BrowserAct](https://github.com/browser-act/skills) ⭐ 5,514 | 🐛 9 | 🌐 Python | 📅 2026-08-24 - Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.
+* [browser-use/browser-harness](https://github.com/browser-use/browser-harness) ⭐ 17,217 | 🐛 284 | 🌐 Python | 📅 2026-08-28 - A thin CDP-based browser harness that lets agents extend helper functions during execution, useful for inspecting self-healing web-task workflows.
+* [BrowserAct](https://github.com/browser-act/skills) ⭐ 5,516 | 🐛 9 | 🌐 Python | 📅 2026-08-24 - Open-source browser automation layer for agents with isolated parallel sessions, multi-account operation, and human handoff when automation is blocked.
 * [Uni-CLI](https://github.com/olo-dot-io/Uni-CLI) ⭐ 270 | 🐛 2 | 🌐 TypeScript | 📅 2026-08-21 - Universal CLI hub connecting agents to 134 sites and desktop apps via 711 declarative YAML pipelines. Ships an 8-phase Karpathy-style self-repair loop, eval harness with a starter catalog, per-call cost ledger, hardcoded sensitive-path deny list, and `unicli mcp serve` that auto-registers one MCP tool per adapter. \~80 tokens per invocation.
 * [OpenAgentRelay](https://github.com/ShakespeareLabs/open-agent-relay) ⭐ 2 | 🐛 0 | 🌐 Python | 📅 2026-07-14 - Inspectable runtime boundary for exposing a local agent or automation as a keyed LAN capability with target verification, bounded conversations, JSON output, and explicit exit codes.
 
 ### Workflow, Profiles & Asset Management
 
 * [codex-profiles](https://github.com/Ducksss/codex-profiles) ⭐ 107 | 🐛 2 | 🌐 Shell | 📅 2026-08-28 - Codex CLI and Desktop profile launcher that isolates authentication, configuration, sessions, connectors, plugins, and logs by `CODEX_HOME`.
-* [AgentPlane](https://github.com/basilisk-labs/agentplane) ⭐ 75 | 🐛 20 | 🌐 TypeScript | 📅 2026-08-28 - Git-native workflow-control harness that stores task records, policy, verification evidence, and closure state as reviewable repository artifacts.
+* [AgentPlane](https://github.com/basilisk-labs/agentplane) ⭐ 75 | 🐛 20 | 🌐 TypeScript | 📅 2026-08-29 - Git-native workflow-control harness that stores task records, policy, verification evidence, and closure state as reviewable repository artifacts.
 * [stelow](https://github.com/calionauta/stelow) ⭐ 11 | 🐛 1 | 🌐 TypeScript | 📅 2026-08-24 - Agentic product-workflow harness with Shape Up boundaries, adversarial plan review, acceptance-based execution contracts, and audit loops.
 * [Build A Harness](https://github.com/3IVIS/buildaharness) ⭐ 11 | 🐛 0 | 🌐 TypeScript | 📅 2026-08-18 - Apache-2.0 visual canvas for agent harnesses that compiles a runtime-neutral FlowSpec to several orchestration frameworks.
 * [agent-harness](https://github.com/ar27111994/agent-harness) ⭐ 6 | 🐛 21 | 🌐 TypeScript | 📅 2026-08-21 - Reproducible lifecycle for coding-agent assets with authority-ranked discovery, pinned mirrors, quarantine routing, staged activation, and host-specific wiring.
@@ -288,4 +288,4 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for contribution guidelines and the pre
 
 ***
 
-> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-28._
+> _Enhansomed by [enhansome](https://github.com/enhansome) on 2026-08-29._
